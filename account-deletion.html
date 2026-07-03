@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hesap &amp; Veri Silme — Fortuna</title>
+  <meta name="description" content="Fortuna hesabınızı ve tüm ilişkili verilerinizi nasıl silersiniz." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-header">
+    <div class="container">
+      <p class="crumbs"><a href="index.html">Fortuna</a> · Hesap &amp; Veri Silme</p>
+      <h1>Hesap &amp; Veri Silme</h1>
+      <p class="updated">Verileriniz üzerinde her zaman söz sahibisiniz.</p>
+    </div>
+  </div>
+
+  <main class="container">
+    <p>
+      Fortuna, hesabınızı ve ilişkili tüm verilerinizi doğrudan Uygulama içinden, herhangi bir e-posta veya
+      destek talebi gerektirmeden kalıcı olarak silmenize izin verir. Bu sayfa Apple App Store kuralı
+      <strong>5.1.1(v)</strong>'e uyum amacıyla yayınlanmıştır.
+    </p>
+
+    <div class="callout callout-warn">
+      <strong>Bu işlem geri alınamaz.</strong> Hesabınız silindiğinde profiliniz, fal geçmişiniz, fincan
+      fotoğraflarınız, ses kayıtlarınız, persona hafızanız ve jeton hareketleriniz silinir ve kurtarılamaz.
+      Abonelik iptali veya iadesi ayrıca Apple üzerinden yönetilir.
+    </div>
+
+    <h2>Hesabınızı Uygulama içinden silme</h2>
+    <ol>
+      <li><strong>Fortuna</strong>'yı iPhone'unuzda açın.</li>
+      <li>Alt menüden <strong>Profil</strong> sekmesine dokunun.</li>
+      <li><strong>Gizlilik</strong> bölümüne kaydırın.</li>
+      <li><strong>Hesabımı sil</strong>'e dokunun.</li>
+      <li>Onay diyaloğunu okuyun ve onaylayın. Silme işlemi tamamlanır tamamlanmaz oturumunuz kapatılır.</li>
+    </ol>
+
+    <h2>Neler silinir</h2>
+    <ul>
+      <li>Hesap profiliniz (görünen ad, doğum tarihi/saati/yeri, dil, fal üslubu tercihi).</li>
+      <li>Hesabınıza bağlı tüm fal okumaları (kahve falı, tarot, astroloji) ve üretilen metinler.</li>
+      <li>Bulut depolamada tutulan tüm fincan fotoğrafları ve seslendirme ses dosyaları.</li>
+      <li>Persona hafıza notları (Fortuna'nın sizi tanımak için tuttuğu özetler).</li>
+      <li>Jeton bakiyeniz ve jeton hareket kayıtları.</li>
+      <li>Onaylandığı cihazdaki yerel önbelleğe alınmış veriler.</li>
+    </ul>
+
+    <h2>Otomatik olarak silinmeyenler</h2>
+    <ul>
+      <li><strong>App Store aboneliği:</strong> Aktif bir Fortuna Mystic aboneliğiniz varsa, bunu ayrıca <em>iOS Ayarlar → [adınız] → Abonelikler → Fortuna</em> yolundan iptal etmeniz gerekir. Apple, geliştiricilerin kullanıcı adına abonelik iptal etmesine izin vermez.</li>
+      <li><strong>Diğer cihazlardaki yerel veri:</strong> Fortuna'yı birden fazla cihazda kullandıysanız, yerel önbelleği temizlemek için her cihazda oturumu kapatıp Uygulamayı kaldırın.</li>
+      <li><strong>Yasal olarak saklamamız gereken sınırlı kayıtlar:</strong> bazı faturalama/vergi kayıtları, muhasebe ve vergi yükümlülüklerine uymak için Apple ve bizim tarafımızdan anonimleştirilerek belirli bir süre saklanabilir. Bu kayıtlar fal içeriğinizi barındırmaz.</li>
+      <li><strong>Destek e-postaları:</strong> Bize e-posta ile ulaştıysanız, bu yazışmalar en fazla 24 ay boyunca gelen kutumuzda kalır. Silinmesini isterseniz yazışmaya yanıt vererek bize bildirin.</li>
+    </ul>
+
+    <h2>Aboneliğinizi de iptal etmek için</h2>
+    <ol>
+      <li>Cihazınızda <em>Ayarlar</em>'ı açın.</li>
+      <li>En üstte adınıza dokunun.</li>
+      <li><strong>Abonelikler</strong>'e dokunun.</li>
+      <li><strong>Fortuna</strong>'yı seçin ve <strong>Aboneliği İptal Et</strong>'e dokunun.</li>
+    </ol>
+
+    <h2>Uygulamayı açamıyor musunuz?</h2>
+    <p>
+      Uygulama içi silme akışını kullanamıyorsanız (örneğin cihazınız bozulduysa veya artık erişiminiz
+      yoksa), Fortuna hesabınızla ilişkili e-posta adresinden
+      <a href="mailto:privacy@lorem.software?subject=Hesap%20silme%20talebi">privacy@lorem.software</a>
+      adresine yazın. E-posta adresinizi ve yaklaşık kayıt tarihinizi ekleyin. Kimliğinizi doğruladıktan
+      sonra silme işlemini <strong>30 gün</strong> içinde tamamlarız.
+    </p>
+
+    <h2>Gizlilik</h2>
+    <p>Verilerinizi nasıl işlediğimiz hakkında daha fazla bilgi için <a href="privacy.html">Gizlilik Politikası</a>'na bakın.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Lorem Software · <a href="index.html">Ana Sayfa</a> · <a href="privacy.html">Gizlilik</a> · <a href="terms.html">Şartlar</a> · <a href="support.html">Destek</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
